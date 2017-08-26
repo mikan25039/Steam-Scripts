@@ -11,3 +11,5 @@ exit
 
 
 //change this file to a .bat file and run when needed.
+//Change USERNAME to "STEAM USERNAME"
+//Change PASSWORD "STEAM PASSWORD"
