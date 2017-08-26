@@ -1,0 +1,13 @@
+@echo off
+
+taskkill /F /IM csgo.exe
+taskkill /F /IM GameOverlayUI.exe
+taskkill /F /IM Steam.exe
+
+timeout /t 2
+start "" "D:\Steam Master Files\Steam.exe" -login USERNAME PASSWORD
+
+exit
+
+
+//change this file to a .bat file and run when needed.
